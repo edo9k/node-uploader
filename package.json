@@ -1,0 +1,24 @@
+{
+  "name": "node-express-uploader",
+  "version": "1.0.0",
+  "description": "Test project for learning how to create an upload api with node and express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Ain't no TDD here motherfucka.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edo9k/node-uploader.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "upload"
+  ],
+  "author": "Eduardo França",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edo9k/node-uploader/issues"
+  },
+  "homepage": "https://github.com/edo9k/node-uploader#readme"
+}
