@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Express, upload de arquivos com Multer</title>
+  <meta charset="UTF-8">
+  <title>Express, upload de arquivos com Multer</title>
 </head>
-<body>   
-    <h1>Express, upload de arquivos com Multer</h1>
+
+<body>
+  <div>
+    <h1>Upload simples com Node+Express+Multer</h1>
     <form action='file/upload' method='post' encType="multipart/form-data">
-        <input type="file" name="file" />
-        <input type='submit' value='Upload!' />
-    </form>	
+      <input type="file" name="file" />
+      <input type='submit' value='Upload!' />
+
+    </form>
+  </div>
+
+  <div>
+    <h2>Rotas</h2>
+    <ul>
+      <li> <a href="/file/upload"> Faz um upload de arquivo. </a> </li>
+      <li> <a href="/file/list"> Lista arquivos em ./upload/ </a> </li>
+      <li> <a href="/trash"> Apaga os arquivos da pasta ./upload/ </a> </li>
+    </ul>
+  </div>
 </body>
+
 </html>
